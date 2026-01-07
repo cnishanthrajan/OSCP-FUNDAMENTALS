@@ -4,13 +4,13 @@ We can redirect an output of a command to a file using the ">" command
 
 command > 
 
-![](OSCP-FUNDAMENTALS/LINUX/IMAGES/image%203.png)
+![](IMAGES/image3.png)
 
 Here we have redirected the output of echo to the xfile.txt by using the command ">"
 
 Now we will again redirect the output of echo to the xfile.txt by using the command ">" many times. What we see is that if we redirect the output to the same file, It is going everything inside that file. It will not ad extra lines into the file. It will only replace the file with the output of echo.
 
-![](OSCP-FUNDAMENTALS/LINUX/IMAGES/image-1%203.png)
+![](IMAGES/image-2203.png)
 
 #outputredirectionadd 
 What if we want to add the extra lines or text inside the file using the output redirection command ">"? We cannot do it with the > command. Instead we have to use the command >>
@@ -19,7 +19,7 @@ The >> command will redirect the output into the file adding into the file inste
 
 command >> 
 
-![](OSCP-FUNDAMENTALS/LINUX/IMAGES/image-2%202.png)
+![](IMAGES/image-2201.png)
 
 #grep > Show the specific characters which we want to see.
 What Grep does is Limit the Output to what we want. 
@@ -70,4 +70,5 @@ We can see that it shows extra one file. What we can do it to use the command ls
 to list the files by subtracting 1 to it.
 
 ![](IMAGES/image-100.png)
+
 

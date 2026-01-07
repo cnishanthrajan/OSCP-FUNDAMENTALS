@@ -9,7 +9,7 @@ There are two types -
 Soft Links allow us to Mirror the contents of Original File to New One. 
 This means that if we modify the original file, then it will modify the symlink file also. 
 
-![](OSCP-FUNDAMENTALS/LINUX/IMAGES/image-4%201.png)
+![](IMAGES/image-4001.png)
 
 ![](IMAGES/image-78.png)
 

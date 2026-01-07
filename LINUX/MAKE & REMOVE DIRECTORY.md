@@ -17,7 +17,7 @@ Now we use the ls -lR command to display what's in the Desktop as well as what's
 #ls #ls-lR
 command > ls- lR
 
-![](LINUX/IMAGES/image301.png)
+![](IMAGES/image301.png)
 
 
 

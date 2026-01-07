@@ -35,7 +35,7 @@ In this case we can see that the Desktop Directory is having no WRITE permission
 so in this case we can use the command chmod g+w Desktop
 ![](IMAGES/image-16.png)
 
-![](image-17.png)
+![](IMAGES/image-17.png)
  You can finally see that the write permission is added to the directory
 
 Similarly you can remove the write permission from the group by using the command 

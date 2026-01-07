@@ -45,7 +45,7 @@ to create a file command is touch > touch file.txt
 ![](IMAGES/image-27.png)
 
 #rmdir
-![](image-28.png)
+![](IMAGES/image-28.png)
 
 #rm-r remove a directory which contains a file command is > rm -r 
 ![](IMAGES/image-29.png)
@@ -60,7 +60,7 @@ here an example of man command to see details about remove rm command> man rm
         cat -n to display what's inside a folder serial wise
 
 #mkdir-p to make folders inside a folder command > mkdir -p 
-![](image-31.png)
+![](IMAGES/image-31.png)
 
 #cp make copy of a file command > cp
 

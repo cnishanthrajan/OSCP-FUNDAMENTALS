@@ -27,7 +27,7 @@ This searches every manual page that contains the word _passwd_ and shows:
 - The section number
 - A short description
 
-![](image-45.png)
+![](IMAGES/image-45.png)
 
 This helps you find **where the information lives**.
 
@@ -50,7 +50,7 @@ Now you know:
 Opening a specific man page section
 
 man 5 passwd:
-![](image-48.png)
+![](IMAGES/image-48.png)
 
 The above shows information about file passwd.
 - Field order

@@ -123,7 +123,7 @@ We use grep with a regular expression to find a line that begins with "jane". 
 #usergroups
 USER GROUPS
  Information about user groups are stored in the /etc/group file. Let's review an example entry of this file. 
- ```
+``````
 bluetooth:x:117:kali
 ``````
 

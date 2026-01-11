@@ -3,6 +3,7 @@ How to add a User
 Command > useradd -m neo 
 
 ![](IMAGES/20260111193928.png)
+
 Here -m denotes that the Home Directory for the User will be created. If you don't put it, it wont create the Home Directory for that User. 
 
 Here there are 4 users. We list it in the /home directory using ls -l command
@@ -18,6 +19,7 @@ How to check if a User is Locked
 Command > passwd --status NEO
 
 ![](IMAGES/20260111201551.png)
+
 Notice the L which is next to the user NEO it means that it is locked
 Now the User will not get authenticated. 
 

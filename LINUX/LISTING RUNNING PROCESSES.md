@@ -12,6 +12,7 @@ The second (f) displays the full format listing (UID, PID, PPID, etc.)
 
 
 Now lets start the application mousepad and suspend it using the command CTRL+Z
+
 ![](IMAGES/20260115164318.png)
 
 And then again we can start the process of mousepad by using the command bg

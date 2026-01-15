@@ -33,11 +33,13 @@ then we can only list the mousepad application only using the C
 If we want to stop a process we can use the KILL command. 
 
 We will list the PID for mousepad using the command> 
+
 ![](IMAGES/20260115170820.png)
 
 Now we know that the PID of Mousepad is 38749
 
 We can Stop that process using the KILL command
+
 
 ![](IMAGES/20260115170925.png)
 

@@ -1,55 +1,67 @@
-[[OSCP-FUNDAMENTALS/LINUX/LINUX BASIC COMMANDS]]
+# 📝 Introduction to Log Files
 
-#journalctl #journalctl-f #journalctl-u #dmesg #head #tail #head-n5 #tail-n5 #tail-f
+As an **information security professional**, logs are essential to **reconstruct events** after a security incident and understand **what happened and when**.
 
-#journalctl #journalctlfu
-you can view syslogs in kali linux using the command journalctl
+ Many log files require **root permissions** to read; `sudo` is often necessary.
 
-![](IMAGES/image-35.png)
+Most Unix-like systems store logs in: /VAR/LOG
 
-#journalctl-f 
-you may view the latest changes in the logs or view the new logs getting filled up in a new event in system using the command > journalctl -f
+Example listing:
 
-#journalctl-u 
-if you want to see only the unit in the system log then you need to use the command. journalctl - u ssh 
-Here we are going to see only the ssh unit logs 
-![](IMAGES/image-36.png)
+![](IMAGES/20260117154524.png)
 
-journalctl -u apache2
-![](IMAGES/image-37.png)
+**Notes:**
 
-#journalctlfu 
-we use this command to see the latest logs for a specific service
-here we are using it to see the logs for Apache 2 and all its update live
-command > journalctl fu apache2
+- Many logs are **plain text files** (can be opened with `cat`, `less`, `tail` etc.).
+- Some logs have **special structures** (like `wtmp`).
 
 
-#dmesg
-dmesg logs > you can view kernal and hardware logs using dmesg logs > command > dmesg
+## Special structured logs -
 
-#head 
-if you want to see only the first 10 lines of the file we can use the head command
-here we are using to view boot.log file in /var/log directory
-command > head boot.log 
-![](IMAGES/image-38.png)
+#### a) `/var/log/wtmp`
 
-if we want we can also see the number of lines we want by adding the command -n5
-so we can see only the first 5 lines of the boot.log file. command > head -n5 boot.log
+- Tracks **login, logout, and runlevel changes**.
+- Can be queried using `who` or `last`.
 
-#head-n5 
-![](IMAGES/image-39.png)
+![](IMAGES/20260117154830.png)
 
-#tail 
-you can view the last 10 lines of a file using the tail command> tail boot.log
-![](IMAGES/image-40.png)
+### Kernel Logs
 
-#tail-n5 
-similarly you can use the tail command to see the last 5 lines also.
-![](IMAGES/image-41.png)
+- Kernel messages are stored in a **ring buffer**.
+- Use `dmesg` to view kernel logs:
 
-#tail-f 
-
-you can view the latest logs of a system logs using the tail -f command
-![](IMAGES/image-42.png)
+Useful for:
+- Detecting **hardware events**
+- Monitoring **USB devices**
+- Checking **disk errors**
 
 
+### Systemd Logs (`journalctl`)
+
+- **journalctl** consolidates multiple logs:
+- stdout/stderr of services
+- syslog messages
+- kernel logs
+
+# Show all logs
+journalctl
+# Reverse chronological order (newest first)
+journalctl -r
+# Follow new logs in real-time
+journalctl -f
+# Show logs for a specific service
+journalctl -u ssh.service
+
+✅ **Summary**
+
+- `/var/log` → main log storage
+
+- `tail` → last lines
+
+- `who`, `last` → login/logout logs
+
+- `dmesg` → kernel messages
+
+- `journalctl` → systemd logs
+
+- `sudo` → access restricted logs

@@ -40,11 +40,13 @@ command : grep -v
 Suppose we don't want to see certain characters in the list. we can use the grep -v command
 
 command > grep -v
+
 ![](IMAGES/image-94.png)
 
  
  SORT
 We can sort contents inside file or listing inside directory by piping it to the sort command
+
 ![](IMAGES/image-95.png)
 
 
@@ -70,5 +72,6 @@ We can see that it shows extra one file. What we can do it to use the command ls
 to list the files by subtracting 1 to it.
 
 ![](IMAGES/image-100.png)
+
 
 

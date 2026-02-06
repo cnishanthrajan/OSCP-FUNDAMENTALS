@@ -9,6 +9,7 @@ We can set values to Variable inside the Shell. Example: We use the variable nis
 
 We can then reference it using the **echo $nishanth** command.
 Command : echo $nishanth
+
 ![](IMAGES/image-75.png)
 
 ![](IMAGES/image-76.png)

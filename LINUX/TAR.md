@@ -60,7 +60,7 @@ f is the file name
 
 We can Extract a TAR File using the command > x
 
-## command > tar -==x==vf etc_backup.tar
+## command > tar -xvf etc_backup.tar
 
 First we will Remove the directory which we copied into our directory /home/nishanth
 

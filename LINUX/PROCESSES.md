@@ -25,6 +25,7 @@ If we suspend a Job using the CTRL+Z command. If we want to Resume the Job again
 We can list the Running Jobs in the background using the command jobs
 
 ![](IMAGES/20260115160811.png)
+
 Here we can see the two jobs are Running.
 
 We can move the first job to the foreground using the command fg %1

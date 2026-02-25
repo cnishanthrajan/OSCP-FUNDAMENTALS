@@ -16,15 +16,18 @@ there was no output indicating that both the files are the same
 ![](IMAGES/image-52.png)
 
 #mv move all text-files together to a folder
+
 ![](IMAGES/image-53.png)
 
 #mv move all text files from a directory to one directory backwards
+
 ![](IMAGES/image-54.png)
 
 ![](IMAGES/image-55.png)
 
 #mv 
 rename a file with move command 
+
 ![](IMAGES/image-56.png)
 
 ![](IMAGES/image-57.png)
@@ -32,6 +35,7 @@ rename a file with move command
 ![](IMAGES/image-58.png)
 
 similarly you can also replace a file with move command 
+
 ![](IMAGES/image-59.png)
 
 

@@ -8,6 +8,7 @@ To make a Directory we use the command > mkdir
 
 
 We will move the Afile.txt to EXAMPLE_FOLDER
+
 ![](IMAGES/image-201.png)
 
 

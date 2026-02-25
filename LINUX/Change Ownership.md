@@ -4,6 +4,7 @@ How to change an ownership of a file from a normal user to the Root User.
 We use the command > chown
 
 Here we listed the File inside the Desktop by > ls -l
+
 ![](IMAGES/20260113212146.png)
 
 We can see on the above screenshot that the file BANDIT is having the primary owner nishanth

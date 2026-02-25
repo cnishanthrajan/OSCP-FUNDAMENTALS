@@ -4,6 +4,7 @@ In a penetration testing scenario, once we obtain access to a target, one of the
 
 #CheckDistributionVersionofOS > cat /etc/issue
 We can get the version of the distribution by reading the **/etc/issue** file.
+
 ![](IMAGES/image-34.png)
 
 ![](IMAGES/image-1-1.png)
@@ -20,6 +21,7 @@ We can check the Kernel version by adding the flag -v to uname
 
 #CheckKernelRelease > uname -r
 If we wanted to get the kernel release we can use the **-r** option
+
 ![](IMAGES/image-4-1.png)
 
 

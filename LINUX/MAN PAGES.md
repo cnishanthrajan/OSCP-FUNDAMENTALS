@@ -10,6 +10,7 @@ These manuals are categorized as below -
 ![](IMAGES/image-43.png)
 
 EXAMPLE: man ls
+
 ![](IMAGES/image-44.png)
 
 When you run: man passwd: 
@@ -33,9 +34,11 @@ This helps you find **where the information lives**.
 
 To avoid partial matches, you can use a **regular expression**:
 man -k '^find$'
+
 ![](IMAGES/image-46.png)
 
 man -k '^passwd$'
+
 ![](IMAGES/image-47.png)
 
 - `^` means _start of the line_
@@ -50,6 +53,7 @@ Now you know:
 Opening a specific man page section
 
 man 5 passwd:
+
 ![](IMAGES/image-48.png)
 
 The above shows information about file passwd.

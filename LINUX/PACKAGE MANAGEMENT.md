@@ -20,12 +20,14 @@ or something else installed as a prerequisite. It only does it as a one for one.
 
 #aptdistupgrade commmand > sudo apt dist-upgrade 
 it will update anything which upgrade command didn't update
+
 ![](IMAGES/5.png)
 
 Here you can see that there was no upgrade because we individually updated the updates which were not upgraded using the sudo apt upgrade command. So this will autoremove the unwanted packages and also install the unupdated packages which were left by sudo apt upgrade command. 
 
 #aptremove
 to remove a Software from Kali command is > sudo apt remove software name
+
 ![](IMAGES/1.png)
 
 
@@ -33,6 +35,7 @@ to remove a Software from Kali command is > sudo apt remove software name
 the apt search command is used to search for packages from the repositories
 
 command > apt search terminator
+
 ![](IMAGES/2.png)
 
 
@@ -53,6 +56,7 @@ So what happens when you remove the software.
 then the software additional files must be removed too. As sudo apt remove will not remove those additional files. 
 
 Hence we use the command sudo apt autoremove
+
 ![](IMAGES/4.png)
 
 you can see in the above example that girl.2-keybinder-3.0 was not remove using sudo apt remove terminator command

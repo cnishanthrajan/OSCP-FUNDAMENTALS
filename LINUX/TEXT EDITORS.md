@@ -5,6 +5,7 @@
 NANO
 
 #nano to create a new text file using command > nano newfile.txt
+
 ![](IMAGES/image-70.png)
 
 ![](IMAGES/image-71.png)
@@ -20,6 +21,7 @@ Please press Enter and press CTRL+X to Exit the editor
 #vim
 
 command > vim 
+
 ![](IMAGES/image-72.png)
 
 Press I to Enter Insert mode

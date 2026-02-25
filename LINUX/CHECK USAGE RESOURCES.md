@@ -3,14 +3,17 @@
 #memory #diskusage #htop 
 
 #free command to check the resources
+
 ![](IMAGES/image-6.png)
 
 
 #memory 
 #free free -m for more readable format
+
 ![](IMAGES/image-7.png)
 
 #diskusage command is df
+
 ![](IMAGES/image-8.png)
 
 you can see that everything is not easily understandable,
@@ -23,6 +26,7 @@ In a Linux Filesystem, we have two types of Disk usage one is via the space and 
 If either one is full, the files cannot be copied to that specific drive.
 
 the command to check the inodes are full is by using > df -i
+
 ![](IMAGES/image-10.png)
 
 

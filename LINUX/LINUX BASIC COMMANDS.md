@@ -21,10 +21,13 @@ COMMANDS to see
 
 
 #ls list the things inside a directory or folder > ls 
+
 ![](IMAGES/image-22.png)
 
 #ls-a list all the files including hidden files inside a directory > ls -a
+
 ![](IMAGES/image-23.png)
+
 notice here that the file names showing dot (.) in front of filename is hidden file. 
 here .cache is a hidden file.
 if you save a file with a dot in front of it, it is a hidden file. 
@@ -33,21 +36,27 @@ if you want to move quickly to your home directory from anywhere inside the file
 
 #touch to create a file
 to create a file command is touch > touch file.txt
+
 ![](IMAGES/image-24.png)
 
 #mkdir to make a new directory or a folder command is > mkdir
+
 ![](IMAGES/image-25.png)
 
 #mv to move a file command is > mv
+
 ![](IMAGES/image-26.png)
 
 #rm remove a file command is > rm
+
 ![](IMAGES/image-27.png)
 
 #rmdir
+
 ![](IMAGES/image-28.png)
 
 #rm-r remove a directory which contains a file command is > rm -r 
+
 ![](IMAGES/image-29.png)
 
 #man command to view the details of each command. if you are stuck you can view this man page for details about any command > man 
@@ -60,6 +69,7 @@ here an example of man command to see details about remove rm command> man rm
         cat -n to display what's inside a folder serial wise
 
 #mkdir-p to make folders inside a folder command > mkdir -p 
+
 ![](IMAGES/image-31.png)
 
 #cp make copy of a file command > cp
